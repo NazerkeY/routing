@@ -1,0 +1,10 @@
+.friends-ul{
+    display: flex!important;
+    flex-direction: row!important;;
+    list-style-type: none!important;;
+    margin: 16px 48px!important;;
+}
+
+.friends-li{
+    margin: 8px 16px;
+}

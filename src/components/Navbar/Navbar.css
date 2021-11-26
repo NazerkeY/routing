@@ -1,0 +1,27 @@
+nav{
+    display: flex!important;;
+    justify-content: space-between!important;;
+    background-color: #0068de!important;;
+}
+
+.my-ul{
+    display: flex!important;
+    flex-direction: row!important;;
+    list-style-type: none!important;;
+    margin: 16px 48px!important;;
+}
+
+.my-li, .login-block{
+    margin: 8px 16px;
+}
+
+.my-ul a{
+    text-decoration: none!important;
+    color: white!important;
+    font-weight: bold!important;
+}
+
+.my-ul a:hover{
+    color: #e0e0e0;
+    text-decoration: overline;
+}
