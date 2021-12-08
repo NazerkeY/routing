@@ -35,7 +35,10 @@ export const Navbar = () => {
             </nav>
 
             <Routes>
-                <Route path="/" element={<Home/>}/>
+                <Route path="/" element={
+                    !authed? <Home message="You are not authed! Please login in to the system"/>:
+                        <Home message="Hello authorized user, Pablo :)"/>
+                }/>
                 <Route path="/profile" element={
                     <CheckForAuth authed={authed}>
                         <Profile />
